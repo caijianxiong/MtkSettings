@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/manual_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:focusable="false"
+    android:orientation="vertical"
+    android:paddingStart="20dp"
+    android:paddingTop="20dp"
+    android:paddingEnd="20dp"
+    android:paddingBottom="20dp">
+
+    <TextView
+        android:id="@+id/tv_proxy_host"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/proxy_hostname_label" />
+
+    <EditText
+        android:id="@+id/et_proxy_host"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/tv_proxy_port"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/proxy_port_label" />
+
+    <EditText
+        android:id="@+id/et_proxy_port"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dip"
+        android:singleLine="true" />
+</LinearLayout>

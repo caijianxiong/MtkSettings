@@ -1,0 +1,6 @@
+/.gradle/
+/.idea/
+/gradlew
+/gradlew.bat
+/color-check-baseline.xml
+/local.properties

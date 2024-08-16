@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--added for ethernet settings-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/manual_layout"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical" >
+	
+		<TextView
+			android:id="@+id/eth_ipaddr_text"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/ethernet_ip_address" />
+	
+		<EditText
+			android:id="@+id/ipaddr_edit"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:singleLine="true" />
+	
+		<TextView
+			android:id="@+id/eth_netmask_text"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/ethernet_mask" />
+	
+		<EditText
+			android:id="@+id/netmask_edit"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="2dip"
+			android:singleLine="true" />
+		<TextView
+			android:id="@+id/eth_gw_text"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/ethernet_gateway" />
+	
+		<EditText
+			android:id="@+id/eth_gw_edit"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:singleLine="true" />			
+			
+		<TextView
+			android:id="@+id/eth_dns1_text"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/ethernet1_dns" />
+	
+		<EditText
+			android:id="@+id/eth_dns1_edit"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:singleLine="true" />	
+		<TextView
+			android:id="@+id/eth_dns2_text"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/ethernet2_dns" 
+			/>
+	
+		<EditText
+			android:id="@+id/eth_dns2_edit"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:singleLine="true" 
+			/>					
+	</LinearLayout>
+</ScrollView>
