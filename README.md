@@ -1,0 +1,2 @@
+# MtkSettings
+把Mtk的settings app添加build.gradle和增加一些依赖变成Android studio项目
